@@ -1,0 +1,2 @@
+2020-10-29 01:20:04 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'customerServiceImpl'
+2020-10-29 01:20:04 DEBUG DefaultListableBeanFactory:225 - Creating shared instance of singleton bean 'projectUi'
