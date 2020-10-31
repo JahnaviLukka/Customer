@@ -27,13 +27,7 @@ public class CustomerServiceImpl implements ICustomerService{
 	  customer=	dao.add(customer);
 	   return customer;
 	}
-/*	
-Customer customer=dao.findById(id);
-        ValidationUtil.checkName(customer.getName());
-        customer.setName(name);
-        customer=dao.update(customer);
-        return customer;
-	*/
+
 	@Override
 	public Customer updateName(long id,String name) {
 		Log.info("Customer Value  updated here");
